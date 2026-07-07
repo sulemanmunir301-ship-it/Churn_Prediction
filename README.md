@@ -1,1 +1,3 @@
 # Churn_Prediction
+## Business Question
+ A peer-reviewed analysis of telecom churn found that churned customers show higher median CLV and greater variance than retained customers, with a distinctly bimodal CLV distribution among churners — meaning valuable customers leaving isn't rare noise, it's a real, recurring pattern that specifically calls for personalized retention strategies for high-value segments rather than one generic churn model. Separately, CLV strategy literature consistently treats high-value and low-value churn as needing different interventions — loyalty/service recovery for the former, engagement/pricing incentives for the latter — which is the retention-prioritization angle your hypothesis is built on.
