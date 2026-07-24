@@ -1,3 +1,19 @@
-# Churn_Prediction
+# Telecom Churn & Retention Analysis
+
 ## Business Question
- A peer-reviewed analysis of telecom churn found that churned customers show higher median CLV and greater variance than retained customers, with a distinctly bimodal CLV distribution among churners — meaning valuable customers leaving isn't rare noise, it's a real, recurring pattern that specifically calls for personalized retention strategies for high-value segments rather than one generic churn model. Separately, CLV strategy literature consistently treats high-value and low-value churn as needing different interventions — loyalty/service recovery for the former, engagement/pricing incentives for the latter — which is the retention-prioritization angle your hypothesis is built on.
+Do high-value customers (by CLTV) churn for different reasons than low-value customers, 
+and how should retention priorities differ across these segments?
+
+## Hypothesis
+I expect churn to concentrate in month-to-month contracts, shorter tenure, and higher 
+monthly charges — the standard telecom churn pattern. Beyond that, I expect high-CLTV 
+churners to cite different reasons (service/support issues) than low-CLTV churners 
+(price/usage), meaning retention strategy should differ by segment rather than 
+applying one blanket approach.
+
+## Status
+In progress — data cleaning and EDA underway.
+
+## Data Source
+Telco Customer Churn: IBM Dataset (Kaggle, uploader: yeanzc) — 7,043 customers, 
+33 variables including Churn Reason and CLTV.
